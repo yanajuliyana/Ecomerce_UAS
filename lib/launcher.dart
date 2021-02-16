@@ -60,7 +60,15 @@ class _LauncherPageState extends State<LauncherPage> {
                 height: 200.0,
                 width: 270.0,
               ),
-            )
+            ),
+            Text(
+              'Iphone',
+              style: TextStyle(
+                  fontSize: 24,
+                  fontFamily: "Serif",
+                  height: 2.0,
+                  color: Colors.white),
+            ),
           ],
         ),
       ),

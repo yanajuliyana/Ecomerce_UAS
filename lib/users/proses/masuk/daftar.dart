@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tokoyana/constans.dart';
 import 'package:tokoyana/launcher.dart';
-import 'package:tokoyana/users/beranda.dart';
-import 'package:tokoyana/users/landingpage.dart';
-import 'package:tokoyana/users/listproduk.dart';
-import 'package:tokoyana/users/proses/masuk/daftar.dart';
 import 'package:tokoyana/users/proses/masuk/Animation.dart';
 import 'package:tokoyana/users/proses/masuk/sigin.dart';
 

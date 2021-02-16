@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tokoyana/users/listproduk.dart';
 
 class KategoriPage extends StatelessWidget {
   @override

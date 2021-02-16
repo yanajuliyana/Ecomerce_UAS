@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tokoyana/constans.dart';
-import 'package:tokoyana/users/landingpage.dart';
 import 'package:tokoyana/users/listproduk.dart';
 
 class DetailProduk extends StatefulWidget {
