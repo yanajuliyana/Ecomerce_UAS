@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tokoyana/constans.dart';
-
-import 'package:tokoyana/users/proses/masuk/sigin.dart';
+import 'package:tokoyana/launcher.dart';
 
 void main() {
   runApp(MyApp());
