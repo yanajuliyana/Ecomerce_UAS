@@ -37,7 +37,7 @@ class _PageHomeState extends State<PageHome> {
       case 2:
         return new DepanPage();
       case 3:
-        return new AddDataPage();
+        return new AddData();
       case 4:
         return new Signin();
 

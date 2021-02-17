@@ -16,7 +16,7 @@ class _LandingPageState extends State<LandingPage> {
   List<Widget> _container = [
     new Beranda(),
     new ThirdFragment(),
-    new AddDataPage(),
+    new AddData(),
     new TransaksiPage(),
     new PageHome(),
   ];

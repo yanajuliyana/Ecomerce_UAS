@@ -61,7 +61,7 @@ class ItemList extends StatelessWidget {
                             list[i]['icon'],
                         fit: BoxFit.cover,
                         height: 180.0,
-                        width: 180.0,
+                        width: 160.0,
                       ),
                       Padding(padding: const EdgeInsets.all(10.0)),
                       Padding(padding: const EdgeInsets.all(10.0)),
