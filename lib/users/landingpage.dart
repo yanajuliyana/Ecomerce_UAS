@@ -4,7 +4,6 @@ import 'package:tokoyana/users/profile.dart';
 import 'package:tokoyana/users/beranda.dart';
 import 'package:tokoyana/users/proses/tambah.dart';
 import 'package:tokoyana/users/listproduk.dart';
-import 'package:tokoyana/users/transaksi.dart';
 
 class LandingPage extends StatefulWidget {
   @override
@@ -16,8 +15,7 @@ class _LandingPageState extends State<LandingPage> {
   List<Widget> _container = [
     new Beranda(),
     new ThirdFragment(),
-    new AddData(),
-    new TransaksiPage(),
+    new AddDataPage(),
     new PageHome(),
   ];
   @override
@@ -67,17 +65,6 @@ class _LandingPageState extends State<LandingPage> {
               color: Colors.white,
             ),
             label: 'Tambah',
-          ),
-          BottomNavigationBarItem(
-            activeIcon: new Icon(
-              Icons.swap_horiz_sharp,
-              color: Palette.orange,
-            ),
-            icon: new Icon(
-              Icons.swap_horiz_sharp,
-              color: Colors.white,
-            ),
-            label: 'Transaksi',
           ),
           BottomNavigationBarItem(
             activeIcon: new Icon(

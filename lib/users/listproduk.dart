@@ -16,7 +16,7 @@ class _ThirdFragmentState extends State<ThirdFragment> {
   Future<List> getData() async {
     final response = await http
         .get("https://projectfluttercrud.000webhostapp.com/listnews.php");
-   // print(response.body);
+    // print(response.body);
     return json.decode(response.body);
   }
 
